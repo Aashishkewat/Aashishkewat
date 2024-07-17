@@ -1,1 +1,3 @@
-
+a=("Aashish")
+b=("kevat")
+print(a+b)
