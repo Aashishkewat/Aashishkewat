@@ -1,0 +1,11 @@
+stude  = {
+  "roll_no":123,
+  "name":"ashish",
+  "email": "ashish@gmail.com"
+
+}
+stude[1112]=98700977152
+
+print(stude)
+del stude[1112]
+print(stude)
