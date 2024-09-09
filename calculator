@@ -1,0 +1,35 @@
+class Calc:
+    def __init__(self, a, b):
+        self.no1 = a
+        self.no2 = b
+
+    def add(self):
+        print("Sum =", self.no1 + self.no2)
+
+    def subtract(self):
+        print("Difference =", self.no1 - self.no2)
+
+    def multiply(self):
+        print("Product =", self.no1 * self.no2)
+
+    def divide(self):
+        if self.no2 != 0:
+            print("Quotient =", self.no1 / self.no2)
+        else:
+            print("Error: Division by zero is not allowed.")
+
+    def remainder(self):
+        if self.no2 != 0:
+            print("Remainder =", self.no1 % self.no2)
+        else:
+            print("Error: Division by zero is not allowed.")
+
+x = float(input("Enter no1: "))
+y = float(input("Enter no2: "))
+
+c1 = Calc(x, y)
+c1.add()
+c1.subtract()
+c1.multiply()
+c1.divide()
+c1.remainder()
